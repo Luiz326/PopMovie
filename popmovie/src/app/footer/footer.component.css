@@ -2,7 +2,7 @@ footer{
 
   background-color:#232121;
 
-  width: 1280px;
+  width: 2114px;
   height: 181px;
 }
 footer>p{
@@ -23,16 +23,18 @@ margin-left: 290px;
 
 #about-text{
   display: flex;
+  align-items: center;
   width: 1280px;
   color:#6E675E;
   background-color:#232121;
   margin-bottom: 200px;
+
 }
 
 #about-text>p{
-  width: 300px;
-  padding-left: 550px;
+  width: 500px;
 
+  padding-left: 540px;
 
 }
 #title-redes{
@@ -42,15 +44,16 @@ margin-left: 290px;
   color: #FFFFFF;
   background-color:#232121;
   width: 1280px;
-
 }
 
 
-div{
 
-  width: 1280px;
+
+div{
+  width:2114px;
   height:61px;
   background-color:#D68F32;
+  color: #FFFFFF;
   display: flex;
   align-content: center;
 
@@ -59,55 +62,3 @@ div>span{
   margin-top: 20px;
   margin-left: 30px;
 }
-@media screen and (min-width:1280px){
-
-  footer{
-    background-color:#232121;
-    width: 2114px;
-    height: 200px;
-  }
-
-  about-text{
-    display: flex;
-    width: 1280px;
-    color:#6E675E;
-    background-color:#232121;
-    margin-bottom: 200px;
-  }
-  about-text>p{
-    width: 300px;
-    margin-left: 500px;
-
-
-  }
-
-#about-text>p{
-    width: 500px;
-
-    padding-left: 540px;
-
-  }
-
-  #title-redes{
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    color: #FFFFFF;
-    background-color:#232121;
-    width: 1280px;
-  }
-
-
-  div{
-    width:2114px;
-    height:61px;
-    background-color:#D68F32;
-    color: #FFFFFF;
-    display: flex;
-    align-content: center;
-
-  }
-
-
-}
-
