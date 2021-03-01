@@ -12,11 +12,14 @@ footer>p{
 }
 
 #imagem-redes{
-
 width: 100px;
 margin-left: 290px;
   background-color:#232121;
 }
+#imagem-redes>img{
+  margin-right: 15px;
+   background-color:#232121;
+  }
 
 #about-text{
   display: flex;
@@ -78,6 +81,13 @@ div>span{
 
   }
 
+#about-text>p{
+    width: 500px;
+
+    padding-left: 540px;
+
+  }
+
   #title-redes{
     padding-top: 20px;
     display: flex;
@@ -86,6 +96,8 @@ div>span{
     background-color:#232121;
     width: 1280px;
   }
+
+
   div{
     width:2114px;
     height:61px;
@@ -93,12 +105,6 @@ div>span{
     color: #FFFFFF;
     display: flex;
     align-content: center;
-
-  }
-  #about-text>p{
-    width: 500px;
-
-    padding-left: 550px;
 
   }
 
