@@ -5,21 +5,46 @@ footer{
   height: 181px;
 }
 footer>p{
-  padding: 20px;
+  padding: 10px;
   padding-left: 106px;
   color:#FFFFFF ;
 }
-footer>img{
-  margin-left:80px;
-  width: 55px;
+
+#imagem-redes{
+  display: flex;
+  justify-content: start;
+  margin-left: 480px;
+  background-color:#232121;
 }
+
+#about-text{
+  display: flex;
+
+  margin-left: 970px;
+  color:#6E675E;
+  background-color:#232121;
+
+}
+#title-redes{
+  padding-top: 20px;
+  display: flex;
+
+  justify-content: space-around;
+  color: #FFFFFF;
+  background-color:#232121;
+
+}
+
+
 div{
   width: 100%;
   height:61px;
   background-color:#D68F32;
-  padding-top: 15px;
+  display: flex;
+  align-content: center;
+
 }
 div>span{
-
+  margin-top: 20px;
   margin-left: 30px;
 }
