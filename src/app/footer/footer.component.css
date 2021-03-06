@@ -14,12 +14,20 @@ footer>p{
 #imagem-redes{
 width: 100px;
 margin-left: 290px;
-  background-color:#232121;
+background-color:#232121;
 }
-#imagem-redes>img{
+#imagem-redes>a img{
   margin-right: 15px;
-   background-color:#232121;
+  background-color:#232121;
+  transform: scale(1.1);
+  opacity: 0.9;
   }
+
+#imagem-redes> a img:hover {
+  opacity: 1;
+  transform: rotate3d(1, 2.0, 3.0, 10deg);
+
+}
 
 #about-text{
   display: flex;

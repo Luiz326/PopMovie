@@ -12,17 +12,6 @@ header>span{
   margin-left: 55px;
 }
 
-header>button{
-  margin-top:25px;
-  margin-right: 168px;
-  width: 100px;
-  height: 30px;
-  border-radius: 4px;
-  border: none;
-  background:#D68F32 ;
-  color:#FFFFFF ;
-}
-
 form>button{
   margin-top:25px;
   margin-right: 168px;
@@ -32,17 +21,32 @@ form>button{
   border: none;
   background:#D68F32 ;
   color:#FFFFFF ;
+  opacity: 0.9;
+}
+
+form>button:hover{
+  cursor: pointer;
+  opacity: 1;
+  transform: scale(1.1);
+
 }
 
 ul{
   display: flex;
   align-items: center;
   margin-left: 1500px;
+
 }
 
 li{
  list-style: none;
  margin-left: 15px;
+
+}
+
+li a{
+  text-decoration: none;
+  color: #D68F32;
 }
 
 @media screen and (min-width:1280px){
