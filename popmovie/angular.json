@@ -1,14 +1,18 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "207cf51a-966e-49a3-8ff4-d8710e0831b0"
+    "analytics": "c40501f0-b7ab-46ac-917b-71fd5f142345"
   },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "popmovie": {
+    "moviepop": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -16,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/popmovie",
+            "outputPath": "dist/moviepop",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,8 +28,7 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/assets/svg/*"
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
@@ -50,13 +53,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "2mb",
-                  "maximumError": "5mb"
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "6kb",
-                  "maximumError": "10kb"
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
                 }
               ]
             }
@@ -65,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "popmovie:build"
+            "browserTarget": "moviepop:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "popmovie:build:production"
+              "browserTarget": "moviepop:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "popmovie:build"
+            "browserTarget": "moviepop:build"
           }
         },
         "test": {
@@ -113,16 +116,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "popmovie:serve"
+            "devServerTarget": "moviepop:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "popmovie:serve:production"
+              "devServerTarget": "moviepop:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "popmovie"
+  "defaultProject": "moviepop"
 }
