@@ -1,0 +1,59 @@
+.container{
+
+  width:1280px;
+  height: 1380px;
+  background-color:#6E675E ;
+}
+
+
+
+.card-movie{
+  width: 237px;
+  height: 346px;
+  margin-bottom: 300px;
+  margin-right:300px;
+  background-color: #D68F32;
+  position: relative;
+  bottom:20px;
+  right: 190px;
+
+
+}
+.title{
+  color: #ffff;
+  margin-bottom: 800px;
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:1280px){
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:2114px;
+    height: 1398px;
+    background-color:#6E675E ;
+  }
+}
+@media screen and (max-width:1323px){
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:2114px;
+    height: 1398px;
+    background-color:#6E675E ;
+  }
+
+
+}
