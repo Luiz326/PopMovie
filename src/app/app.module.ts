@@ -16,6 +16,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { Navbar2Component } from './navbar/navbar2/navbar2.component';
 import { Navbar3Component } from './navbar/navbar3/navbar3.component';
 import { HomeComponent } from './home/home.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -28,7 +29,7 @@ import { HomeComponent } from './home/home.component';
     SignuppageComponent,
     DetailsmoviepageComponent,
     FavoritemoviepageComponent,
-    MovieselectorpageComponent,
+
     FramePageComponent,
     Frame2PageComponent,
     Frame3PageComponent,
@@ -39,7 +40,8 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
