@@ -10,6 +10,8 @@ import { DetailsmoviepageComponent } from './movies/detailsmoviepage/detailsmovi
 import { FavoritemoviepageComponent } from './movies/favoritemoviepage/favoritemoviepage.component';
 import { MovieselectorpageComponent } from './movies/movieselectorpage/movieselectorpage.component';
 
+
+
 const routes: Routes = [
   {
     path:'',
